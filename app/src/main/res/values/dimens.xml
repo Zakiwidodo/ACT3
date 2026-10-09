@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><dimen name="padding_atas">100dp</dimen>
+    <dimen name="padding_bawah_copy">50dp</dimen>
+    <dimen name="padding_card">12dp</dimen>
+    <dimen name="padding_card_vertikal">6dp</dimen>
+    <dimen name="padding_logo">5dp</dimen>
+    <dimen name="padding_nama">8dp</dimen>
+    <dimen name="padding_telp">2dp</dimen>
+    <dimen name="padding_alamat">4dp</dimen>
+
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="jarak_judul">25dp</dimen>
+    <dimen name="jarak_logo_teks">12dp</dimen>
+
+    <dimen name="font_prodi">26sp</dimen>
+    <dimen name="font_univ">14sp</dimen>
+    <dimen name="font_nama_cursive">20sp</dimen>
+    <dimen name="font_nama">18sp</dimen>
+    <dimen name="font_telp">12sp</dimen>
+    <dimen name="font_alamat">12sp</dimen>
+
+    <item name="bobot_teks" format="float" type="dimen">1</item></resources>
