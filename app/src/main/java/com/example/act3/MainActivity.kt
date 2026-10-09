@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             ACT3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    HalamanUtama(
+
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
