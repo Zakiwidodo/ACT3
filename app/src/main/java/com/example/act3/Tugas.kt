@@ -98,3 +98,71 @@ fun KartuProfil(
             }
 
             Spacer(modifier = Modifier.width(dimensionResource(R.dimen.jarak_logo_teks)))
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.ukuran_logo))
+                    .padding(all = dimensionResource(R.dimen.padding_logo))
+            )
+        }
+    }
+}
+
+@Composable
+fun HalamanUtama(modifier: Modifier = Modifier) {
+    Column(
+        modifier = Modifier
+            .padding(top = dimensionResource(R.dimen.padding_atas))
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            stringResource(id = R.string.prodi),
+            fontSize = ukuranFont(R.dimen.font_prodi),
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            stringResource(id = R.string.univ),
+            fontSize = ukuranFont(R.dimen.font_univ),
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul)))
+
+        KartuProfil(
+            warnaCard = R.color.card_0_bg,
+            nama = R.string.nama_0,
+            alamat = R.string.alamat_0,
+            pakaiCursive = true
+        )
+        KartuProfil(
+            warnaCard = R.color.card_1_bg,
+            nama = R.string.nama_1,
+            telepon = R.string.telp_1,
+            alamat = R.string.alamat_1
+        )
+        KartuProfil(
+            warnaCard = R.color.card_2_bg,
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaAlamat = R.color.white
+        )
+        KartuProfil(
+            warnaCard = R.color.card_3_bg,
+            nama = R.string.nama_3,
+            telepon = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaAlamat = R.color.white
+        )
+
+        Box(modifier = Modifier.fillMaxSize()) {
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = dimensionResource(R.dimen.padding_bawah_copy))
+            )
+        }
+    }
+}
