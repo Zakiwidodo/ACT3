@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ACT3</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+
+    <string name="nama_0">Bambang Sumantri</string>
+    <string name="alamat_0">Turi, Sleman</string>
+
+    <string name="nama_1">Akmal Maulana</string>
+    <string name="telp_1">0882010519211</string>
+    <string name="alamat_1">Kasihan, Bantul</string>
+
+    <string name="nama_2">Ichlas Bintang</string>
+    <string name="telp_2">0882010519211</string>
+    <string name="alamat_2">Wirobrajan, Kota Yogyakarta</string>
+
+    <string name="nama_3">Alfian Wijayanto</string>
+    <string name="telp_3">0882010519211</string>
+    <string name="alamat_3">Godean, Sleman</string>
+</resources>
+
